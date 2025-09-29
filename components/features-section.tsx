@@ -61,11 +61,11 @@ export function FeaturesSection() {
           {features.map((feature, index) => (
             <Card
               key={index}
-              className="bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 group"
+              className="bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/20 hover:scale-[1.02] hover:-translate-y-2 group rounded-2xl"
             >
               <CardHeader>
                 <div
-                  className={`w-12 h-12 rounded-lg bg-secondary/50 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}
+                  className={`w-12 h-12 rounded-xl bg-secondary/50 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}
                 >
                   <feature.icon className={`h-6 w-6 ${feature.color}`} />
                 </div>
@@ -75,7 +75,7 @@ export function FeaturesSection() {
                 <CardDescription className="text-muted-foreground leading-relaxed mb-4">
                   {feature.description}
                 </CardDescription>
-                <Button className="w-full bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/20">
+                <Button className="w-full bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-medium transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-primary/30 rounded-xl">
                   مشاهده توضیحات دوره
                 </Button>
               </CardContent>

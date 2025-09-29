@@ -12,7 +12,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-2 rtl:flex-row-reverse">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center glow-effect">
+            <div className="w-8 h-8 bg-primary rounded-xl flex items-center justify-center glow-effect transition-transform duration-200 hover:scale-110">
               <div className="w-4 h-4 bg-primary-foreground rounded-sm"></div>
             </div>
             <span className="text-xl font-bold text-foreground">ویداچین</span>
@@ -31,7 +31,7 @@ export function Navbar() {
             </a>
             <Button
               variant="outline"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200"
             >
               خرید اشتراک ویژه
             </Button>
@@ -61,7 +61,7 @@ export function Navbar() {
               <div className="px-3 py-2">
                 <Button
                   variant="outline"
-                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
+                  className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-200"
                 >
                   خرید اشتراک ویژه
                 </Button>

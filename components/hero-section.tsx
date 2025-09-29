@@ -62,7 +62,7 @@ export function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button
             size="lg"
-            className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg glow-effect"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg glow-effect rounded-2xl shadow-xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-300"
           >
             شروع سفر
             <ArrowRight className="ltr:ml-2 rtl:mr-2 h-5 w-5 rtl:rotate-180" />
@@ -70,7 +70,7 @@ export function HeroSection() {
           <Button
             variant="outline"
             size="lg"
-            className="border-accent text-accent hover:bg-accent hover:text-accent-foreground px-8 py-3 text-lg bg-transparent"
+            className="border-accent text-accent hover:bg-accent hover:text-accent-foreground px-8 py-3 text-lg bg-transparent rounded-2xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
           >
             <Play className="ltr:mr-2 rtl:ml-2 h-5 w-5" />
             ورود به آموزشگاه

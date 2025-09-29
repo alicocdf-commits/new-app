@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center glow-effect">
+              <div className="w-8 h-8 bg-primary rounded-xl flex items-center justify-center glow-effect transition-transform duration-200 hover:scale-110">
                 <div className="w-4 h-4 bg-primary-foreground rounded-sm"></div>
               </div>
               <span className="text-xl font-bold text-foreground">ویداچین</span>
@@ -16,16 +16,16 @@ export function Footer() {
               شرکت توسعه خدمات وب 3 ویدا با 5 سال سابقه در امور آموزش فناورهای بر لبه تکنولوژی روز دنیا
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-200 hover:scale-110 p-2 rounded-xl hover:bg-accent/50">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-200 hover:scale-110 p-2 rounded-xl hover:bg-accent/50">
                 <Send className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-200 hover:scale-110 p-2 rounded-xl hover:bg-accent/50">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-200 hover:scale-110 p-2 rounded-xl hover:bg-accent/50">
                 <MessageCircle className="h-5 w-5" />
               </a>
             </div>
